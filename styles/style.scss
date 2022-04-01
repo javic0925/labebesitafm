@@ -1,0 +1,85 @@
+@import "global";
+
+header {
+  width: 100vw;
+  height: 10vh;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  margin: 0 1rem 0 1rem;
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  img {
+    height: 60%;
+  }
+}
+
+.share-btn {
+  height: 40%;
+}
+
+.chat {
+  width: 95%;
+  height: 87%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom-left-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  border-left: 1px solid rgba(209, 213, 219, 0.3);
+  border-right: 1px solid rgba(209, 213, 219, 0.3);
+  border-bottom: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.main {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  height: 8%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  border-left: 1px solid rgba(209, 213, 219, 0.3);
+  border-right: 1px solid rgba(209, 213, 219, 0.3);
+  border-top: 1px solid rgba(209, 213, 219, 0.3);
+
+  a {
+    font-weight: 300;
+    color: #1a1a1a;
+  }
+}
+
+footer {
+  background-color: gray;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>La Bebesita FM</title>
+    <meta name="description" content="La Bebesita FM Online Radio">
+    <meta name="author" content="JaviC Dev">
+
+    <meta property="og:title" content="La Bebesita FM">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://labebesitafm.netlify.app/">
+    <meta property="og:description" content="La Bebesita FM Online Radio">
+    <meta property="og:image" content="image.png">
+
+    <link rel="icon" href="./assets/fav/favicon.ico">
+    <link rel="icon" href="#" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./assets/fav/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        
+        <nav>
+            <a href="https://labebesitafm.netlify.app/"><img src="./assets/La Bebesita FM LogoTrans.png" alt="Logo"></a>
+            
+            <a href=""><img class="share-btn" src="./assets/iconmonstr-share-thin-240.png" alt=""></a>
+            
+        </nav>
+    </header>
+    <section class="main">
+        <div class="info"><h4>Contáctanos</h4><a href="https://t.me/labebesitafm">Telegram: @LaBebesitaFM</a></div>
+        <div class="chat"><iframe src="https://www3.cbox.ws/box/?boxid=3515197&boxtag=k0oJEG" width="100%" height="90%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>		</div>
+        
+    </section>
+    <footer>
+        <audio id="player" controls>
+            <source src="http://stream.zeno.fm/hkzfwez0pnhvv" type="audio/mp3" />
+          </audio>
+    </footer>
+    <!-- your content here... -->
+    <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
+    <script>
+        const player = new Plyr('#player', {
+            controls: ['play', 'progress', 'airplay', 'volume' ],
+        
+        });
+      </script>
+      <script src="./js/share.js"></script>
+    
+    
+    
+</body>
+
+</html>
