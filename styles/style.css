@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1601790093283-521d5f05f38d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80");
-  background-size: 200%;
+  background-image: url("https://images.unsplash.com/photo-1584541728894-dbcae08f94ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
@@ -61,7 +61,7 @@ a img {
 
 .chat {
   width: 95%;
-  height: 87%;
+  height: 91%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,7 +100,7 @@ a img {
 }
 
 .info {
-  height: 8%;
+  height: 9%;
   width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
